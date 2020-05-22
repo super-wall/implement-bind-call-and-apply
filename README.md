@@ -14,7 +14,7 @@ Function.prototype.call = function(context) {
 
   // 获取参数
   var args = [];
-  for (var i = 0; i < arguments.length; i++) {
+  for (var i = 1; i < arguments.length; i++) {
     args.push('arguments[' + i + ']');
   }
 
